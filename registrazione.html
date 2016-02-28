@@ -1,0 +1,42 @@
+<form action="registration.php" method="POST">
+    <label>Username</label>
+    <input type="text" name="username"/></br>
+    <label>Password</label>
+    <input type="password" name="password" value=""></br>
+    <label>Codice Meccanografico</label>
+    <input type="text" name="codiceMeccanografico" value=""></br>
+    <label>Tipo</label>
+    <select name="tipo">
+        <option value="AE" selected="selected">Arbitro Effettivo</option>
+        <option value="AA">Assistente Arbitrale</option>
+    </select></br>
+    <label>Nome</label>
+    <input type="text" name="nome" value=""></br>
+    <label>Cognome</label>
+    <input type="text" name="cognome" value=""></br>
+    <label>Codice Fiscale</label>
+    <input type="text" name="codiceFiscale" value=""></br>
+    <label>Data di Nascita</label>
+    <input type="date" name="dataNascita" value=""></br>
+    <label>Anzianità Arbitrale</label>
+    <input type="date" name="anzianitaArbitrale" value=""></br>
+    <label>Organo Tecnico</label>
+    <select id="organoTecnico" name="organoTecnico">
+        <option value="OTS">OTS</option>
+        <option value="OTR">OTR</option>
+        <option value="CAI">CAI</option>
+        <option value="CAND">CAN D</option>
+        <option value="CANC">CAN C</option>
+        <option value="CANB">CAN B</option>
+        <option value="CANA">CAN A</option>
+    </select></br>
+    <label>Indirizzo</label>
+    <input type="text" name="indirizzo" value=""></br>
+    <label>Localita</label>
+    <input type="text" name="localita" value=""></br>
+    <label>Provincia</label>
+    <select name="provincia" id="provincia">
+        <option value="PN">Pordenone</option>
+    </select></br>
+    <button type="submit" name="submit" value="insert">Registrati</button>
+</form>

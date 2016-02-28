@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.formContainer {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    margin: auto;
+    display: block;
+}

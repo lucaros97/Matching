@@ -1,0 +1,223 @@
+html, body {
+  overflow-x: hidden !important;
+  font-family: 'Segoe ui', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+  font-weight: 100;
+  background: #f9f9f9;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a {
+  color: #3c8dbc;
+}
+
+a:hover, a:active, a:focus {
+  outline: none;
+  text-decoration: none;
+  color: #72afd2;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.corpo {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.leftNavbar {
+    width: 15%;
+    min-width: 200px;
+    height: 100%;
+    display: block;
+    float: left;
+    background: #2e3e4e;
+}
+
+.logoContainer {
+    width: 100%;
+}
+
+.logo {
+  color: #f9f9f9;
+}
+.logo {
+  font-size: 28px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Segoe ui', cursive;
+  font-weight: 100;
+  height: 54px;
+  display: block;
+}
+
+.mainContent {
+    width: 85%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: left;
+}
+
+.topbarMenu {
+    width: 100%;
+    height: 55px;
+    display: block;
+    line-height: 55px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.03),0 1px 0 rgba(0,0,0,.03);
+}
+
+.dashboardTitle {
+    font-size: 24px;
+    display: block;
+    float: left;
+    padding: 0 2%;
+}
+
+.usernameContainer {
+    display: block;
+    float: right;
+    margin: 0 2%;
+}
+
+.divider {
+    width: 100%;
+    height: 5%;
+    min-height: 60px;
+}
+
+.navbarMenuItem {
+    color: white;
+    font-size: 15pt;
+    line-height: 50px;
+    border-top: 1px solid white;
+}
+
+.navbarMenuItem:first-of-type {
+    border-top: 1px solid white;
+}
+
+.navbarMenuList li:last-of-type .navbarMenuItem {
+    border-bottom: 1px solid white;
+}
+
+.navbarMenuList li {
+    width: 100%;
+}
+
+.navbarMenuList li a {
+    width: 100%;
+    display: block;
+}
+
+.navbarMenuList li a span {
+    padding-left: 35px;
+}
+
+.dashboardContent {
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    padding: 1.5rem;
+}
+
+.rowStats {
+    width: 100%;
+    height: 25%;
+    box-sizing: inherit;
+    display: block;
+
+}
+
+.matchesRefereedStats {
+    width: 31%;
+    display: block;
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    position: relative;
+}
+
+.firtOfType {
+    margin-left: 0;
+}
+
+.lastOfType {
+    margin-right: 0;
+}
+
+.box {
+    box-shadow: 0 0 1px rgba(0,0,0,.15);
+    padding: 1rem !important;
+    position: relative;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    height: 40%;
+    line-height: 1.5 !important;
+}
+
+.boxLeft {
+    display: block;
+    float: left;
+    margin-right: 1rem !important;
+    height: 100%;
+    width: auto;
+}
+
+.iconRounded {
+    width: auto;
+    height: auto;
+    min-width: 48px;
+    min-height: 48px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    background: #0cc2aa;
+    color: #fff;
+
+}
+
+.iconBox {
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+    display: block;
+    line-height: 1;
+    width: auto;
+    margin: 22.5% 0 22.5% 0;
+    padding: 0 2%;
+}
+
+.boxRight {
+    width: auto;
+    display: block;
+    float: left;
+    font-size: 2rem;
+    height: 100%;
+    text-align: center;
+    font-weight: 100;
+    font-family: Segoe UI;
+    line-height: 2.25;
+}
+
+@media screen and (max-width:720px) {
+    .leftNavbar {
+        width: 100%;
+    }
+}
