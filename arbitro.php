@@ -1,24 +1,19 @@
 <?php
-include "functions.php";
+include_once "functions.php";
 
 session_start();
 
 if (!isset($_SESSION['userApp'])) header('location: index.php');
-if (!($_SESSION['tipo']=='AE')) header('location: index.php');
+//if (!($_SESSION['tipo']=='AE')) header('location: index.php');
 
 $usernameUtente = $_SESSION['user'];
 $nomeUtente = $_SESSION['userApp'];
 $cognomeUtente = $_SESSION['cognomeUtente'];
 $anzianita = date('d-m-Y', strtotime($_SESSION['anzianita']));
 $dataNascita = $_SESSION['dataNascita'];
-$sezioneAppartenenza = $_SESSION['sezione'];
+//$sezioneAppartenenza = $_SESSION['sezione'];
 $codiceMeccanografico = $_SESSION['codiceMeccanografico'];
 $fotoProfilo = $_SESSION['fotoProfilo'];
-
-if ($_SESSION['tipo'] == "AE") {
-    $tipoUtente = "Arbitro Effettivo";
-} else $tipoUtente = "Osservatore Arbitrale";
-
 ?>
 
 <html>
@@ -34,15 +29,18 @@ if ($_SESSION['tipo'] == "AE") {
         <nav class="col-md-2 leftNavbar">
             <ul class="nav nav-pills nav-stacked">
                 <li role="presentation" class="active"><a href="#">Home</a></li>
-                <li role="presentation"><a href="#">Profile</a></li>
-                <li role="presentation"><a href="#">Messages</a></li>
+                <li role="presentation"><a href="#">Profilo</a></li>
+                <li role="presentation"><a href="partite.php">Partite</a></li>
+                <li role="presentation"><a href="#">Statistiche</a></li>
             </ul>
         </nav>
         <section class="col-md-10">
             <div class="dashboardContent">
                 <div class="topbarMenu">
                     <div class="dashboardTitle">Dashboard</div>
-                    <a href="logout.php"><button type="button" class="btn btn-default navbar-btn btnLogout">Sign out</button></a>
+                    <form class="logout" action="logout.php" method="post">
+                        <button type="submit" name="logout" class="btn btn-default navbar-btn btnLogout">Sign out</button>
+                    </form>
                 </div>
             </div>
             <div class="row profileContent">
@@ -52,12 +50,14 @@ if ($_SESSION['tipo'] == "AE") {
                 <div class="col-xs-12 col-sm-6 col-md-6 profileInfo">
                         <div class="infoNomeUtente">
                             <span><?php echo "$nomeUtente"; ?></span>
-                            <span><?php echo "$cognomeUtente"; ?></span><br>
+                            <span><?php echo "$cognomeUtente"; ?></span>
+                            <span class="small"><em>@<?php echo $usernameUtente; ?></em></span><br>
+                            <span class="small" style="color: #737373">Sezione di <?php echo getSezione(); ?></span>
                         </div>
                 </div>
                 <div class="col-md-4" style="margin: 2% 0;">
                     <div class="ContainerInfoGenerali">
-                        <span style="font-size: 22pt;"><?php getOrganoTecnico(); ?></span><br>
+                        <span class="text-uppercase" style="font-size: 22pt;"><?php getOrganoTecnico(); ?></span><br>
                         <span>Organo Tecnico</span>
                     </div>
                     <div class="ContainerInfoGenerali" style="border:none;">
@@ -69,13 +69,13 @@ if ($_SESSION['tipo'] == "AE") {
                 <div class="row rowStatsContainer">
                 </div>
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 progressBarSection">
                         <?php
                             $percentualePartite = getPercentualePartite();
                             foreach ($percentualePartite as $percentualePartita){
                                 echo '<div class="progressContainer">
                                         <div class="infoProgess"><span>'.$percentualePartita["categoria"].'</span>
-                                        <span>'.$percentualePartita["numeroPartite"].'</span>
+                                        <!--<span>'.$percentualePartita["numeroPartite"].'</span>-->
                                         </div>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: '.$percentualePartita["percentuale"].'%">'.$percentualePartita["percentuale"].'    %</div>
@@ -84,7 +84,14 @@ if ($_SESSION['tipo'] == "AE") {
                             }
                         ?>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 containerArbitrate">
+                        <div class="containerArbitrateTitle">
+                            <span>Matches Refereed</span>
+                        </div>
+                        <div class="containerArbitrateContent">
+                            <p class="text-center"><?php getMatches() ?></p>
+                        </div>
+
                     </div>
                 </div>
             </div>

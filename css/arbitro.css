@@ -89,6 +89,13 @@ ul {
     display: block;
     float: left;
     padding: 0 2%;
+    width: 20%;
+}
+
+.logout {
+    display: block;
+    width: 80%;
+    float: left;
 }
 
 .btnLogout {
@@ -259,7 +266,12 @@ padding-left: 1rem;
 }
 
 .infoNomeUtente {
-    font-size: 20pt;
+    font-size: 22pt;
+}
+
+.small {
+    font-size: 60% !important;
+    color: #cccccc;
 }
 
 .ContainerInfoGenerali {
@@ -271,6 +283,14 @@ padding-left: 1rem;
 
 .rowStatsContainer {
     margin: 5% 0;
+}
+
+.row {
+    display: block;
+}
+
+.progressBarSection {
+    height:20%;
 }
 
 .progressContainer {
@@ -290,6 +310,20 @@ padding-left: 1rem;
     float: left;
     width: 80%;
     margin-bottom: 0 !important;
+}
+
+.containerArbitrate {
+    display: block;
+}
+
+.containerArbitrateTitle {
+    text-align: center;
+    font-size: 14pt;
+}
+
+.containerArbitrateContent {
+    width: 100%;
+    font-size: 30pt;
 }
 
 @media screen and (max-width:720px) {

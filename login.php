@@ -33,11 +33,11 @@
 
 			$_SESSION['userApp']=$riga['nome'];
 			$_SESSION['cognomeUtente']=$riga['cognome'];
-        	$_SESSION['tipo']=$riga['Tipo'];
+        	//$_SESSION['tipo']=$riga['Tipo'];
 			$_SESSION['user']=$riga['username'];
 			$_SESSION['anzianita']=$riga['anzianitaArbitrale'];
 			$_SESSION['dataNascita']=$riga['dataNascita'];
-			$_SESSION['sezione']=$riga['sezioneAppartenenza'];
+			//$_SESSION['sezione']=$riga['sezioneAppartenenza'];
 			$_SESSION['codiceMeccanografico']=$riga['codiceMeccanografico'];
 			$_SESSION['fotoProfilo']=$riga['fotoProfilo'];
 
@@ -45,11 +45,11 @@
 
 		} else {
 		      $_SESSION['userApp']="";
-              $_SESSION['tipo']="";
+              //$_SESSION['tipo']="";
 
 			  session_destroy();
 
-			  header('location: index.php');
+			  //header('location: index.php');
 		}
 		
 	} else echo "ERRORE NELLA QUERY";
