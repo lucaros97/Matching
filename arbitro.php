@@ -1,5 +1,6 @@
 <?php
 include_once "functions.php";
+//include_once "functionsPartite.php";
 
 session_start();
 
@@ -71,16 +72,24 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
                 <div class="row">
                     <div class="col-md-8 progressBarSection">
                         <?php
+                            $color = array("#5cb85c", "#e74c3c", "#f0ad4e", "#d9534f");
+                            $i = 0;
                             $percentualePartite = getPercentualePartite();
-                            foreach ($percentualePartite as $percentualePartita){
-                                echo '<div class="progressContainer">
-                                        <div class="infoProgess"><span>'.$percentualePartita["categoria"].'</span>
-                                        <!--<span>'.$percentualePartita["numeroPartite"].'</span>-->
+                            foreach ($percentualePartite as $percentualePartita){ ?>
+                                <div class='progressContainer'>
+                                    <div class='infoProgess'>
+                                        <span><?php echo $percentualePartita['categoria'] ?></span>
+                                    </div>
+                                    <div class='progress'>
+                                        <div class='progress-bar' role='progressbar' aria-valuenow='40'
+                                             aria-valuemin='0' aria-valuemax='100'
+                                             style="width: <?php echo $percentualePartita['percentuale'] ?>%;
+                                                 background: <?php echo $color[$i] ?> !important;">
+                                                 <?php echo $percentualePartita['percentuale'] ?>%
                                         </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: '.$percentualePartita["percentuale"].'%">'.$percentualePartita["percentuale"].'    %</div>
-                                        </div>
-                                      </div>';
+                                    </div>
+                                  </div>
+                            <?php $i++;
                             }
                         ?>
                     </div>

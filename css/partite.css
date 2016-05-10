@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe ui', sans-serif;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.panel {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.brandTitle {
+    display: block;
+    width: 19%;
+    float: left;
+    color: white !important;
+    font-size: 18pt;
+}
+
+.logout {
+    margin-bottom: 0;
+}
+
+.btnLogout {
+    background: none;
+    color: white;
+}
+
+.btnLogout:hover {
+    background: white;
+    color: #34495e;
+}

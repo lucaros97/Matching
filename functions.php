@@ -1,6 +1,5 @@
 <?php
 require_once("connessione.php");
-include_once("arbitro.php");
 
     function getMatches(){
         global $conn;
@@ -106,29 +105,28 @@ include_once("arbitro.php");
         return $x;
     }
 
-    function getDatiPartita(){
-        global $conn;
-        global $usernameUtente;
+function getDatiPartita(){
+    global $conn;
+    global $usernameUtente;
 
-        $sql = "SELECT p.squadraLocale AS squadraLocale, p.squadraOspite AS squadraOspite FROM partita AS p WHERE p.usernameArbitro = '$usernameUtente'";
+    $sql = "SELECT p.squadraLocale AS squadraLocale, p.squadraOspite AS squadraOspite FROM partita AS p WHERE p.usernameArbitro = '$usernameUtente'";
 
-        $risultato = mysqli_query($conn,$sql);
+    $risultato = mysqli_query($conn,$sql);
 
-        if ($risultato) {
-            $i = 0;
-            $x = array();
-            while ($row=mysqli_fetch_array($risultato)) {
-                $x[$i] = array("squadraLocale" => $row["squadraLocale"], "squadraOspite" => $row["squadraOspite"]);
-                $i++;
-            }
-
-        } else {
-            printf( mysqli_error($conn));
+    if ($risultato) {
+        $i = 0;
+        $x = array();
+        while ($row=mysqli_fetch_array($risultato)) {
+            $x[$i] = array("sqLocale" => $row["squadraLocale"], "sqOspite" => $row["squadraOspite"]);
+            $i++;
         }
 
-        return $x;
-
+    } else {
+        printf( mysqli_error($conn));
     }
 
+    return $x;
+
+}
 
  ?>

@@ -1,20 +1,10 @@
 <?php
-include_once "functions.php";
+require_once "functions.php";
 
+session_start();
 
 if (!isset($_SESSION['userApp'])) header('location: index.php');
-//if (!($_SESSION['tipo']=='AE')) header('location: index.php');
 
-
-$usernameUtente = $_SESSION['user'];
-$nomeUtente = $_SESSION['userApp'];
-
-/*$cognomeUtente = $_SESSION['cognomeUtente'];
-$anzianita = date('d-m-Y', strtotime($_SESSION['anzianita']));
-$dataNascita = $_SESSION['dataNascita'];
-//$sezioneAppartenenza = $_SESSION['sezione'];
-$codiceMeccanografico = $_SESSION['codiceMeccanografico'];
-$fotoProfilo = $_SESSION['fotoProfilo']; */
 ?>
 
 <html>
@@ -22,14 +12,18 @@ $fotoProfilo = $_SESSION['fotoProfilo']; */
     <title>Partite</title>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/partite.css" />
+    <link rel="stylesheet" type="text/css" href="css/arbitro.css" />
 </head>
 <body>
     <div class="panel panel-default">
-        <!-- Default panel contents -->
-        <div class="panel-heading">Panel heading</div>
-        <div class="panel-body">
-            <p></p>
-        </div>
+
+        <nav class="navbar navbar-default" style="background: #34495e;">
+            <a class="navbar-brand brandTitle" href="arbitro.php">Matching</a>
+            <form class="logout" action="logout.php" method="post">
+                <button type="submit" name="logout" class="btn btn-default navbar-btn btnLogout">Sign out</button>
+            </form>
+        </nav>
 
         <!-- Table -->
         <table class="table table-hover table-striped">
@@ -40,15 +34,21 @@ $fotoProfilo = $_SESSION['fotoProfilo']; */
                 </tr>
             </thead>
             <tbody>
-            <?php
-            /*$partite = getDatiPartita();
-            foreach ($partite as $partita){
-                echo '<tr>
-                    <td>Cacca</td>
-                    <td>Pupu</td>
-                </tr>';
-            } */
-            ?>
+                <tr>
+                    <?php
+                        $partita = getDatiPartita();
+                        foreach ($partita as $partite){
+                            echo '<tr>
+                                    <td>
+                                        '.$partita["sqLocale"].'
+                                    </td>
+                                    <td>
+                                        '.$partita["sqOspite"].'
+                                    </td>
+                                  </tr>';
+                        }
+                    ?>
+                </tr>
             </tbody>
         </table>
     </div>
