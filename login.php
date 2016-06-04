@@ -22,9 +22,8 @@
 	$_REQUEST['passw']="";
 
 	if($risultato){
+
 		$riga=mysqli_fetch_array($risultato,MYSQLI_ASSOC);
-		print_r($riga);
-		print_r($_POST);
 
 		if (!password_verify($passw, $riga['passw']))
 			die("password marcia");

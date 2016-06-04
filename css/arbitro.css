@@ -1,12 +1,17 @@
 html, body {
   overflow-x: hidden !important;
-  font-family: 'Segoe ui', sans-serif !important;
+  font-family: Dosis, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
   font-weight: 100;
-  background: #f9f9f9;
+  background: #ffffff;
   padding: 0;
   margin: 0;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(/Matching/fonts/Dosis-ExtraLight.otf);
 }
 
 a {
@@ -40,13 +45,43 @@ ul {
 
 .leftNavbar {
     height: 100%;
-    background: #eee;
+    background: #34495e;
+    color: #ffffff;
     margin: 0 !important;
     padding: 0 !important;
+    position: fixed !important;
 }
 
+.linkTitleNavbar:hover {
+    text-decoration: none;
+}
+
+.navbarTitle {
+    font-size: 20pt;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-right: 1px solid #34495e;
+    padding: 2% 0;
+    margin-bottom: 20%;
+    background: #ffffff;
+    color: #34495e;
+}
+
+.presentation > a {
+    color: #ffffff !important;
+}
 .nav-pills > li > a {
     border-radius: 0 !important;
+    color: #ffffff;
+}
+
+.nav-pills > li > a:hover {
+    color: #34495e !important;
+}
+
+.glyphicon {
+    margin-right: 5%;
 }
 
 .logoContainer {
@@ -78,9 +113,9 @@ ul {
 
 .topbarMenu {
     width: 100%;
-    height: 55px;
+    height: 48px;
     display: block;
-    line-height: 55px;
+    line-height: 48px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -281,12 +316,35 @@ padding-left: 1rem;
     border-right: 1px solid #ccc;
 }
 
+.showMedia {
+    font-size: 14pt;
+}
+
 .rowStatsContainer {
-    margin: 5% 0;
+    border-top: 1px solid #cccccc;
+    padding: 3% 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.mediaCircle {
+    display: block;
+    border-radius: 50%;
+    min-width: 20%;
+    width: 150px;
+    min-height: 20%;
+    height: 150px;
+    margin: auto;
+    font-size: 35px;
+    line-height: 110px;
+    margin-top: 2%;
 }
 
 .row {
     display: block;
+}
+
+.percentagesBarContainer {
+    margin: 3% 0;
 }
 
 .progress-bar {
@@ -333,5 +391,12 @@ padding-left: 1rem;
 @media screen and (max-width:720px) {
     .leftNavbar {
         width: 100%;
+        height:auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .leftNavbar {
+        position: relative !important;
     }
 }

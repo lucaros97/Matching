@@ -1,8 +1,9 @@
 body {
-    font-family: 'Segoe ui', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 100;
     padding: 0;
     margin: 0;
+    background: #ffffff !important;
 }
 
 .panel {
@@ -17,6 +18,10 @@ body {
     border-radius: 0 !important;
 }
 
+.listaPartite {
+    width:100%;
+}
+
 .brandTitle {
     display: block;
     width: 19%;
@@ -25,16 +30,32 @@ body {
     font-size: 18pt;
 }
 
-.logout {
-    margin-bottom: 0;
+.modalModifica {
+    display: block;
+    width: 100%;
 }
 
-.btnLogout {
-    background: none;
-    color: white;
+.formSquadre {
+    width: 50%;
+    margin: auto;
+    float: left;
 }
 
-.btnLogout:hover {
-    background: white;
-    color: #34495e;
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
 }

@@ -11,7 +11,7 @@ require_once("connessione.php");
 
         if ($risultato) {
             while ($row=mysqli_fetch_array($risultato)) {
-                print_r($row[0]);
+                return($row[0]);
             }
         } else {
             printf( mysqli_error($conn));
@@ -42,7 +42,7 @@ require_once("connessione.php");
 
 
         $sql = "SELECT o.NomeOrganoTecnico 
-                FROM account as a JOIN organoTecnico as o ON a.idOrganoTecnico=o.idOrganoTecnico WHERE a.username='" . $usernameUtente . "'";
+                FROM account as a JOIN organotecnico as o ON a.idOrganoTecnico=o.idOrganoTecnico WHERE a.username='" . $usernameUtente . "'";
 
         $risultato=mysqli_query($conn,$sql);
 
@@ -81,11 +81,11 @@ require_once("connessione.php");
         $sql = "SELECT c.NomeCategoria AS categoria, 
                     COUNT(*) * 100.0 / (
                         SELECT COUNT(*) 
-                        FROM partita AS P2 
-                        WHERE P2.usernameArbitro=P1.usernameArbitro
+                        FROM partita AS p2 
+                        WHERE p2.usernameArbitro=p1.usernameArbitro
                     ) AS percentuale, COUNT(*) AS numeroPartite 
-                FROM partita AS P1 JOIN categoria as c ON p1.idCategoria=c.idCategoria
-                WHERE P1.usernameArbitro = '$usernameUtente' 
+                FROM partita AS p1 JOIN categoria as c ON p1.idCategoria = c.idCategoria
+                WHERE p1.usernameArbitro = '$usernameUtente' 
                 GROUP BY c.NomeCategoria";
 
         $risultato = mysqli_query($conn,$sql);
@@ -109,16 +109,24 @@ function getDatiPartita(){
     global $conn;
     global $usernameUtente;
 
-    $sql = "SELECT p.squadraLocale AS squadraLocale, p.squadraOspite AS squadraOspite FROM partita AS p WHERE p.usernameArbitro = '$usernameUtente'";
+    $sql = "SELECT p.idPartita as idPartita, p.golLocali as golLocali, p.golOspiti as golOspiti, p.data as dataPartita, s1.nomeSquadra AS squadraLocale, s2.nomeSquadra AS squadraOspite 
+            FROM partita as p 
+	            JOIN squadra AS s1 ON p.squadraLocale = s1.idSquadra 
+	            JOIN squadra AS s2 ON p.squadraOspite = s2.idSquadra 
+            WHERE p.usernameArbitro = '$usernameUtente'
+            ORDER BY dataPartita";
 
     $risultato = mysqli_query($conn,$sql);
-
+    $x = array();
     if ($risultato) {
-        $i = 0;
-        $x = array();
         while ($row=mysqli_fetch_array($risultato)) {
-            $x[$i] = array("sqLocale" => $row["squadraLocale"], "sqOspite" => $row["squadraOspite"]);
-            $i++;
+            //print_r($row);
+            $x[] = array("dataPartita" => $row["dataPartita"],
+                         "sqLocale"    => $row["squadraLocale"],
+                         "sqOspite"    => $row["squadraOspite"],
+                         "golLocali"   => $row["golLocali"],
+                         "golOspiti"   => $row["golOspiti"],
+                         "idPartita"   => $row["idPartita"]);
         }
 
     } else {
@@ -127,6 +135,70 @@ function getDatiPartita(){
 
     return $x;
 
+}
+
+function getAmmonitiTotali(){
+    global $conn;
+    global $usernameUtente;
+
+    $sql = "SELECT sum(s.numeroAmmoniti) FROM statistichepartita as s JOIN partita as p on s.idPartita=p.idPartita WHERE p.usernameArbitro='$usernameUtente'";
+
+    $risultato = mysqli_query($conn,$sql);
+
+    if ($risultato) {
+        while ($row=mysqli_fetch_array($risultato)) {
+
+            return (!$row[0] ? 0 : $row[0]);
+        }
+    } else {
+        printf( mysqli_error($conn));
+    }
+}
+
+function getEspulsiTotali(){
+    global $conn;
+    global $usernameUtente;
+
+    $sql = "SELECT sum(s.numeroEspulsi) FROM statistichepartita as s JOIN partita as p on s.idPartita=p.idPartita WHERE p.usernameArbitro='$usernameUtente'";
+
+    $risultato = mysqli_query($conn,$sql);
+
+    if ($risultato) {
+        while ($row=mysqli_fetch_array($risultato)) {
+
+            return (!$row[0] ? 0 : $row[0]);
+        }
+    } else {
+        printf( mysqli_error($conn));
+    }
+}
+
+
+function getMediaAmmoniti(){
+    $numeroAmmoniti = getAmmonitiTotali();
+    $numeroPartite = getMatches();
+
+    $media = @(bcdiv($numeroAmmoniti, $numeroPartite, 2));
+
+    if($numeroPartite === 0){
+        $media = null;
+    }
+
+    return $media;
+}
+
+
+function getMediaEspulsi(){
+    $numeroEspulsi = getEspulsiTotali();
+    $numeroPartite = getMatches();
+
+    $media = @(bcdiv($numeroEspulsi, $numeroPartite, 2));
+
+    if($numeroPartite === 0){
+        $media = null;
+    }
+
+    return $media;
 }
 
  ?>

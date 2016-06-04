@@ -20,27 +20,56 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
 <html>
 <head>
     <title>Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="css/arbitro.css" />
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/arbitro.css" />
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300' rel='stylesheet' type='text/css'>
+
     <meta charset="utf-8">
 </head>
 <body>
     <div class="corpo">
         <nav class="col-md-2 leftNavbar">
+            <a href="arbitro.php" class="linkTitleNavbar">
+                <div class="text-center navbarTitle">
+                    <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+                    <span>Matching</span>
+                </div>
+            </a>
             <ul class="nav nav-pills nav-stacked">
-                <li role="presentation" class="active"><a href="#">Home</a></li>
-                <li role="presentation"><a href="#">Profilo</a></li>
-                <li role="presentation"><a href="partite.php">Partite</a></li>
-                <li role="presentation"><a href="#">Statistiche</a></li>
+                <li role="presentation" class="active">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="profilo.php">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <span>Profilo</span>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="partite.php">
+                        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                        <span>Partite</span>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                        <span>Statistiche</span>
+                    </a>
+                </li>
             </ul>
         </nav>
-        <section class="col-md-10">
+        <section class="col-md-10" style="float: right">
             <div class="dashboardContent">
                 <div class="topbarMenu">
                     <div class="dashboardTitle">Dashboard</div>
                     <form class="logout" action="logout.php" method="post">
-                        <button type="submit" name="logout" class="btn btn-default navbar-btn btnLogout">Sign out</button>
+                        <button type="submit" name="logout" class="btn btn-default navbar-btn btnLogout">Logout</button>
                     </form>
                 </div>
             </div>
@@ -68,8 +97,20 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
                 </div>
             </div>
                 <div class="row rowStatsContainer">
+                    <div class="col-md-6 text-center" >
+                        <span class="showMedia">Media Ammoniti</span><br>
+                        <div class="mediaCircle" style="border: 15px solid #f2ca27">
+                            <span class=""><?php echo getMediaAmmoniti(); ?></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <span class="showMedia">Media Espulsi</span><br>
+                        <div class="mediaCircle" style="border: 15px solid #e74c3c">
+                            <span class=""><?php echo getMediaEspulsi(); ?></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
+                <div class="row percentagesBarContainer">
                     <div class="col-md-8 progressBarSection">
                         <?php
                             $color = array("#5cb85c", "#e74c3c", "#f0ad4e", "#d9534f");
@@ -98,7 +139,7 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
                             <span>Matches Refereed</span>
                         </div>
                         <div class="containerArbitrateContent">
-                            <p class="text-center"><?php getMatches() ?></p>
+                            <p class="text-center"><?php echo getMatches() ?></p>
                         </div>
 
                     </div>
