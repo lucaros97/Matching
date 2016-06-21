@@ -52,6 +52,18 @@ ul {
     position: fixed !important;
 }
 
+.icon {display: none;}
+
+.titleNavbar {
+    width: 100%;
+    display: block;
+}
+
+.linkTitleNavbar {
+    padding: 0 !important;
+    color: #34495e !important;
+}
+
 .linkTitleNavbar:hover {
     text-decoration: none;
 }
@@ -329,9 +341,7 @@ padding-left: 1rem;
 .mediaCircle {
     display: block;
     border-radius: 50%;
-    min-width: 20%;
     width: 150px;
-    min-height: 20%;
     height: 150px;
     margin: auto;
     font-size: 35px;
@@ -388,10 +398,49 @@ padding-left: 1rem;
     font-size: 30pt;
 }
 
-@media screen and (max-width:720px) {
+.containerAggiungi {
+    padding: 5%;
+}
+
+.inputAggiungi {
+    margin: 10px 0;
+}
+
+
+/* @media screen and (max-width:720px) {
     .leftNavbar {
         width: 100%;
         height:auto;
+    }
+
+    .navbarItem {
+        display: none;
+    }
+} */
+
+@media screen and (max-width:720px) {
+    ul.navbarItem {display: none;}
+    .icon {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    ul.navbarItem.responsive {position: relative;}
+    ul.navbarItem.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.navbarItem.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.navbarItem.responsive li a {
+        display: block;
+        text-align: left;
     }
 }
 

@@ -29,7 +29,6 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
     <link rel="stylesheet" type="text/css" href="css/arbitro.css" />
 
     <script src="bootstrap/js/bootstrap.js"></script>
-    <script src="js/partite.js"></script>
 
 
 
@@ -93,28 +92,26 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <?php
-                            $partite = getDatiPartita();
-                            foreach ($partite as $partita){ ?>
-                                 <tr>
-                                    <td>
-                                        <?= date("d/m/Y", strtotime($partita["dataPartita"]));?>
-                                    </td>
-                                    <td>
-                                        <span class="squadra-locale"><?= $partita["sqLocale"] ?></span> - <span class="squadra-ospite"><?= $partita["sqOspite"] ?></span>
-                                    </td>
-                                    <td>
-                                        <span class="gol-locale"><?= $partita["golLocali"] ?></span> - <span class="gol-ospiti"><?= $partita["golOspiti"] ?></span>
-                                    </td>
-                                    <td>
-                                        <button class="btn btn-default btn-modifica" style="color: #2ecc71; border-color: #2ecc71" data-toggle="modal" data-target=".modal-change" data-id="<?= $partita["idPartita"] ?>" type="submit">Modifica</button>
-                                        <button class="btn btn-default" style="color: #e67e22; border-color: #e67e22;" data-toggle="modal" data-target=".modal-details" data-id="<?= $partita["idPartita"] ?>" type="submit">Dettagli</button>
-                                        <button class="btn btn-default" style="color: #e74c3c; border-color: #e74c3c;" data-toggle="modal" data-target=".modal-delete" data-id="<?= $partita["idPartita"] ?>" type="submit">Elimina</button>
-                                    </td>
-                                  </tr>
-                           <?php } ?>
-                    </tr>
+                    <?php
+                        $partite = getDatiPartita();
+                        foreach ($partite as $partita){ ?>
+                             <tr class="rigaPartita" data-id="<?= $partita["idPartita"] ?>">
+                                <td>
+                                    <?= date("d/m/Y", strtotime($partita["dataPartita"]));?>
+                                </td>
+                                <td>
+                                    <span class="squadra-locale"><?= $partita["sqLocale"] ?></span> - <span class="squadra-ospite"><?= $partita["sqOspite"] ?></span>
+                                </td>
+                                <td>
+                                    <span class="gol-locale"><?= $partita["golLocali"] ?></span> - <span class="gol-ospiti"><?= $partita["golOspiti"] ?></span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-default btn-modifica" style="color: #2ecc71; border-color: #2ecc71" data-toggle="modal" data-target=".modal-change" data-id="<?= $partita["idPartita"] ?>" type="submit">Modifica</button>
+                                    <button class="btn btn-default" style="color: #e67e22; border-color: #e67e22;" data-toggle="modal" data-target=".modal-details" data-id="<?= $partita["idPartita"] ?>" type="submit">Dettagli</button>
+                                    <button class="btn btn-default eliminaPartita" style="color: #e74c3c; border-color: #e74c3c;" data-id="<?= $partita["idPartita"] ?>" type="submit">Elimina</button>
+                                </td>
+                              </tr>
+                    <?php } ?>
                 </tbody>
             </table>
         </div>
@@ -157,13 +154,13 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
 
     <div class="modal fade modal-aggiungi" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <input type="text" class="form-control" id="aggiungiDelegazione" placeholder="Comitato/Delegazione">
-                <input type="text" class="form-control" id="aggiungiSquadraLocale" placeholder="Squadra Locale">
-                <input type="text" class="form-control" id="aggiungiSquadraLocale" placeholder="Squadra Locale">
-                <input type="text" class="form-control" id="aggiungiSquadraOspite" placeholder="Squadra Ospite">
-                <input type="text" class="form-control" id="aggiungiGolLocali" placeholder="Gol Locali">
-                <input type="text" class="form-control" id="aggiungiGolOspiti" placeholder="Gol Ospiti">
+            <div class="modal-content containerAggiungi">
+                <input type="text" class="form-control inputAggiungi" id="aggiungiDelegazione" placeholder="Comitato/Delegazione">
+                <input type="text" class="form-control inputAggiungi" id="aggiungiCategoria" placeholder="Categoria">
+                <input type="text" class="form-control inputAggiungi" id="aggiungiSquadraLocale" placeholder="Squadra Locale">
+                <input type="text" class="form-control inputAggiungi" id="aggiungiSquadraOspite" placeholder="Squadra Ospite">
+                <input type="text" class="form-control inputAggiungi" id="aggiungiGolLocali" placeholder="Gol Locali">
+                <input type="text" class="form-control inputAggiungi    " id="aggiungiGolOspiti" placeholder="Gol Ospiti">
                 <div class="form-group">
                     <div class='input-group date' id='datetimepicker1'>
                         <input type='text' class="form-control" />

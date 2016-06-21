@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<RepositoryCustomSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AutoRefresh>true</AutoRefresh>
+  <AutoRefreshRemotes>true</AutoRefreshRemotes>
+  <CommitTextLinks />
+  <DraftCommitMsg />
+  <IncomingSavedCount>0</IncomingSavedCount>
+  <LastCheckedRemotes>2016-05-10T19:58:52.4766185+02:00</LastCheckedRemotes>
+  <LastUsedView>Log</LastUsedView>
+  <LogBranchFilterIndex>0</LogBranchFilterIndex>
+  <OutgoingSavedCount>0</OutgoingSavedCount>
+  <RemoteProjectLinks>
+    <RepositoryRemoteProjectLink>
+      <BaseUrl>https://www.github.com</BaseUrl>
+      <Identifier>lucaros97/Matching</Identifier>
+      <RemoteName>origin</RemoteName>
+      <Type>GitHub</Type>
+      <Username>lucaros97</Username>
+    </RepositoryRemoteProjectLink>
+  </RemoteProjectLinks>
+  <SidebarExpandedItems>
+    <string>Stato del file</string>
+    <string>Rami</string>
+    <string>Percorsi remoti</string>
+  </SidebarExpandedItems>
+  <SidebarWidth>140</SidebarWidth>
+  <SubtreeLinks />
+</RepositoryCustomSettings>

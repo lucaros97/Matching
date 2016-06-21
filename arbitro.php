@@ -1,6 +1,5 @@
 <?php
 include_once "functions.php";
-//include_once "functionsPartite.php";
 
 session_start();
 
@@ -27,17 +26,30 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
     <link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300' rel='stylesheet' type='text/css'>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        function myFunction() {
+            document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+        }
+    </script>
+
 </head>
 <body>
     <div class="corpo">
         <nav class="col-md-2 leftNavbar">
-            <a href="arbitro.php" class="linkTitleNavbar">
-                <div class="text-center navbarTitle">
-                    <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
-                    <span>Matching</span>
-                </div>
-            </a>
-            <ul class="nav nav-pills nav-stacked">
+            <ul class="nav nav-pills nav-stacked navbarItem">
+                <li role="presentation" class="titleNavbar" >
+                    <a href="arbitro.php" class="linkTitleNavbar">
+                        <div class="text-center navbarTitle">
+                            <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+                            <span>Matching</span>
+                            <div class="icon">
+                                <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                            </div>
+                        </div>
+                    </a>
+                </li>
                 <li role="presentation" class="active">
                     <a href="#">
                         <span class="glyphicon glyphicon-home" aria-hidden="true"></span>

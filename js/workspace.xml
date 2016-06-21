@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68f54cd2-9afc-44c4-a36a-e52cd5b262d4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-datetimepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Matching.iml" afterPath="$PROJECT_DIR$/.idea/Matching.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arbitro.php" afterPath="$PROJECT_DIR$/arbitro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/bootstrap/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connessione.php" afterPath="$PROJECT_DIR$/connessione.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/arbitro.css" afterPath="$PROJECT_DIR$/css/arbitro.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-slider/slider.css" afterPath="$PROJECT_DIR$/css/bootstrap-slider/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterPath="$PROJECT_DIR$/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterPath="$PROJECT_DIR$/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/partite.css" afterPath="$PROJECT_DIR$/css/partite.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partite.php" afterPath="$PROJECT_DIR$/partite.php" />
+    </list>
+    <ignored path="Matching.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Matching" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="arbitro.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/arbitro.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="395" column="18" selection-start-line="395" selection-start-column="18" selection-end-line="395" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arbitro.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arbitro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="128" column="56" selection-start-line="128" selection-start-column="56" selection-end-line="128" selection-end-column="56" />
+              <folding>
+                <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+                <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+                <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+                <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+                <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+                <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+                <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+                <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+                <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+                <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+                <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+                <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partite.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/partite.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partite.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="159" column="115" selection-start-line="159" selection-start-column="115" selection-end-line="159" selection-end-column="115" />
+              <folding>
+                <marker date="1465294935549" expanded="true" signature="3963:4009" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profilo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profilo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="72" column="60" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63930">
+              <caret line="4262" column="6" selection-start-line="4262" selection-start-column="1" selection-end-line="4262" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/partite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#6#84#0#PHP" expanded="true" />
+                <marker date="1465292207016" expanded="true" signature="263:298" placeholder="DELETE FROM " />
+                <marker date="1465292207016" expanded="true" signature="263:299" placeholder="DELETE FROM " />
+                <marker date="1465292207016" expanded="true" signature="263:304" placeholder="DELETE FROM " />
+                <marker date="1465292207016" expanded="true" signature="263:325" placeholder="DELETE FROM " />
+                <marker date="1465292207016" expanded="true" signature="263:342" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/functionsPartite.php" />
+        <option value="$PROJECT_DIR$/bootstrap/css/partite.css" />
+        <option value="$PROJECT_DIR$/connessione.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/partite.js" />
+        <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/profilo.css" />
+        <option value="$PROJECT_DIR$/profilo.php" />
+        <option value="$PROJECT_DIR$/css/partite.css" />
+        <option value="$PROJECT_DIR$/js/delete.php" />
+        <option value="$PROJECT_DIR$/arbitro.php" />
+        <option value="$PROJECT_DIR$/js/partite.js" />
+        <option value="$PROJECT_DIR$/delete.php" />
+        <option value="$PROJECT_DIR$/css/arbitro.css" />
+        <option value="$PROJECT_DIR$/partite.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="49" />
+    <option name="y" value="18" />
+    <option name="width" value="1317" />
+    <option name="height" value="750" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssUnknownTarget</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matching" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="C:\wamp\www\Matching\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68f54cd2-9afc-44c4-a36a-e52cd5b262d4" name="Default" comment="" />
+      <created>1462345591784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1462345591784</updated>
+      <workItem from="1462345597166" duration="926000" />
+      <workItem from="1462349851663" duration="573000" />
+      <workItem from="1462350558895" duration="14415000" />
+      <workItem from="1462526793238" duration="192000" />
+      <workItem from="1462527146468" duration="94000" />
+      <workItem from="1462527359718" duration="2215000" />
+      <workItem from="1462545655158" duration="644000" />
+      <workItem from="1462546322637" duration="193000" />
+      <workItem from="1462566489102" duration="71000" />
+      <workItem from="1462602363810" duration="16046000" />
+      <workItem from="1462823689536" duration="10340000" />
+      <workItem from="1462870501240" duration="737000" />
+      <workItem from="1462951249652" duration="6805000" />
+      <workItem from="1463381347512" duration="2773000" />
+      <workItem from="1463812495720" duration="2309000" />
+      <workItem from="1463997604875" duration="3908000" />
+      <workItem from="1464150362498" duration="267000" />
+      <workItem from="1464158238532" duration="700000" />
+      <workItem from="1464160262296" duration="2377000" />
+      <workItem from="1464164155283" duration="8794000" />
+      <workItem from="1464182796460" duration="5224000" />
+      <workItem from="1464207591374" duration="9800000" />
+      <workItem from="1464337465562" duration="1507000" />
+      <workItem from="1464342220652" duration="2600000" />
+      <workItem from="1464513729278" duration="2091000" />
+      <workItem from="1464605421805" duration="661000" />
+      <workItem from="1464676852855" duration="4932000" />
+      <workItem from="1464938581185" duration="4467000" />
+      <workItem from="1464945960146" duration="8023000" />
+      <workItem from="1465036951414" duration="384000" />
+      <workItem from="1465282459775" duration="8501000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="122569000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="18" width="1317" height="750" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23310554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="149" y="118" width="1117" height="550" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1465294935549" expanded="true" signature="3963:4009" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/arbitro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/arbitro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/arbitro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/arbitro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="82" selection-start-line="115" selection-start-column="82" selection-end-line="115" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="82" selection-start-line="115" selection-start-column="82" selection-end-line="115" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="82" selection-start-line="115" selection-start-column="82" selection-end-line="115" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functionsPartite.php" />
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="4" column="94174" selection-start-line="4" selection-start-column="94174" selection-end-line="4" selection-end-column="94174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="1096" column="31" selection-start-line="1096" selection-start-column="31" selection-end-line="1096" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/profilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <marker date="1464246671288" expanded="true" signature="175:223" placeholder="SELECT * FRO... account" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63930">
+          <caret line="4262" column="6" selection-start-line="4262" selection-start-column="1" selection-end-line="4262" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="60" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/partite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/partite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connessione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="128" column="56" selection-start-line="128" selection-start-column="56" selection-end-line="128" selection-end-column="56" />
+          <folding>
+            <marker date="1464342593337" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1464342593337" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1464342593337" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1464342593337" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2231" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3492" placeholder="SELECT p.dat... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3508" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="3114:3541" placeholder="SELECT p.gol... partita" />
+            <marker date="1464342593337" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1464342593337" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+            <marker date="1465292207016" expanded="true" signature="263:298" placeholder="DELETE FROM " />
+            <marker date="1465292207016" expanded="true" signature="263:299" placeholder="DELETE FROM " />
+            <marker date="1465292207016" expanded="true" signature="263:304" placeholder="DELETE FROM " />
+            <marker date="1465292207016" expanded="true" signature="263:325" placeholder="DELETE FROM " />
+            <marker date="1465292207016" expanded="true" signature="263:342" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/arbitro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="395" column="18" selection-start-line="395" selection-start-column="18" selection-end-line="395" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="159" column="115" selection-start-line="159" selection-start-column="115" selection-end-line="159" selection-end-column="115" />
+          <folding>
+            <marker date="1465294935549" expanded="true" signature="3963:4009" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
