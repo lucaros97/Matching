@@ -149,6 +149,13 @@ ul {
     float: right;
 }
 
+.spanNoMatches {
+    display: block;
+    font-size: 30px;
+    width: 100%;
+    padding: 25%;
+}
+
 .usernameContainer {
     display: block;
     float: right;

@@ -82,6 +82,13 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
             <div>
                 <button data-toggle="modal" data-target=".modal-aggiungi" class="btn btn-info">Aggiungi Partita</button>
             </div>
+
+            <?php
+            $partite = getDatiPartita();
+
+            if ($partite == null){ ?>
+                <span class="text-center spanNoMatches">Oppsss! Non ci sono partite</span>
+            <?php } else { ?>
             <table class="table table-hover col-md-10 text-center listaPartite">
                 <thead>
                     <tr>
@@ -92,9 +99,8 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
                     </tr>
                 </thead>
                 <tbody>
-                    <?php
-                        $partite = getDatiPartita();
-                        foreach ($partite as $partita){ ?>
+                        <?php
+                            foreach ($partite as $partita){ ?>
                              <tr class="rigaPartita" data-id="<?= $partita["idPartita"] ?>">
                                 <td>
                                     <?= date("d/m/Y", strtotime($partita["dataPartita"]));?>
@@ -111,8 +117,8 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
                                     <button class="btn btn-default eliminaPartita" style="color: #e74c3c; border-color: #e74c3c;" data-id="<?= $partita["idPartita"] ?>" type="submit">Elimina</button>
                                 </td>
                               </tr>
-                    <?php } ?>
-                </tbody>
+                    <?php } } ?>
+</tbody>
             </table>
         </div>
     </div>

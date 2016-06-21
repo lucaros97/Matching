@@ -77,7 +77,7 @@
             </div>
         </div>
         <div class="slogan col-md-12 text-center">
-            <span>#GetYourStatistics.</span><br>
+            <span>#GetYourStatistics</span><br>
             <span class="subSlogan">Matching is the first free website to calculate football referee statistics</span>
         </div>
         <div class="description col-md-12 text-center">
@@ -102,10 +102,10 @@
 
     </section>
 
-    <section class="secondSection">
+    <section class="secondSection col-md-12">
         <div class="signupContent">
-            <div class="signupSlogan">
-                <span>Get started.</span><br>
+            <div class="signupSlogan text-center">
+                <span style="font-size: 40px">Get started.</span><br>
                 <span class="signupSubSlogan">Create now your free account!</span>
             </div>
             <form class="signupForm">
@@ -144,15 +144,6 @@
                     <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
                     <div class="col-sm-10">
                         <input type="password" name="passw" class="form-control" id="inputPassword3" placeholder="Password">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox"> Remember me
-                            </label>
-                        </div>
                     </div>
                 </div>
                 <div class="form-group">
