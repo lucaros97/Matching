@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="arbitro.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="arbitro.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/arbitro.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
+            <state relative-caret-position="411">
+              <caret line="155" column="20" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -35,8 +35,8 @@
       <file leaf-file-name="arbitro.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arbitro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="360">
+              <caret line="120" column="124" selection-start-line="120" selection-start-column="124" selection-end-line="120" selection-end-column="124" />
               <folding />
             </state>
           </provider>
@@ -47,9 +47,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5423">
               <caret line="319" column="0" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
-              <folding>
-                <marker date="1466509729691" expanded="true" signature="11:17" placeholder="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,10 +55,28 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
+            <state relative-caret-position="1819">
               <caret line="107" column="69" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1465404342000" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+                <marker date="1465404342000" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+                <marker date="1465404342000" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+                <marker date="1465404342000" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+                <marker date="1465404342000" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+                <marker date="1465404342000" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+                <marker date="1465404342000" expanded="true" signature="3114:3541" placeholder="SELECT p.idP... partita" />
+                <marker date="1465404342000" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+                <marker date="1465404342000" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
               </folding>
             </state>
           </provider>
@@ -89,21 +105,9 @@
       <file leaf-file-name="partite.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partite.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="89" column="64" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
-              <folding>
-                <marker date="1466527696685" expanded="true" signature="6568:6717" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="6612:6706" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="6652:6691" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="6824:6973" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="6868:6962" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="6908:6947" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="7082:8002" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="7126:8002" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="7184:8002" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="7970:8002" placeholder="..." />
-                <marker date="1466527696685" expanded="true" signature="8162:8265" placeholder="..." />
-              </folding>
+            <state relative-caret-position="394">
+              <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,7 +127,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding />
+              <folding>
+                <marker date="1466533579382" expanded="true" signature="263:342" placeholder="DELETE FROM " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,13 +150,13 @@
         <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/css/partite.css" />
-        <option value="$PROJECT_DIR$/delete.php" />
         <option value="$PROJECT_DIR$/js/partite.js" />
-        <option value="$PROJECT_DIR$/arbitro.php" />
         <option value="$USER_HOME$/Desktop/Sviluppo/matching/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/partite.php" />
+        <option value="$PROJECT_DIR$/delete.php" />
+        <option value="$PROJECT_DIR$/arbitro.php" />
         <option value="$PROJECT_DIR$/css/arbitro.css" />
       </list>
     </option>
@@ -165,10 +171,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -195,8 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,6 +280,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,17 +366,18 @@
       <workItem from="1466509850515" duration="805000" />
       <workItem from="1466513198688" duration="331000" />
       <workItem from="1466526637253" duration="1155000" />
+      <workItem from="1466533384713" duration="2393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81944000" />
+    <option name="totallyTimeSpent" value="84337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="0" width="1378" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17135416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17107195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -420,19 +426,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1466527696685" expanded="true" signature="6568:6717" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6612:6706" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6652:6691" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6824:6973" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6868:6962" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6908:6947" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="7082:8002" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="7126:8002" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="7184:8002" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="7970:8002" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="8162:8265" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -701,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/partite.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -720,14 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,9 +723,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5423">
           <caret line="319" column="0" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
-          <folding>
-            <marker date="1466509729691" expanded="true" signature="11:17" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,47 +737,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
+        <state relative-caret-position="1819">
           <caret line="107" column="69" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arbitro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partite.php">
+    <entry file="file://$PROJECT_DIR$/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="89" column="64" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
+        <state relative-caret-position="119">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
-            <marker date="1466527696685" expanded="true" signature="6568:6717" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6612:6706" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6652:6691" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6824:6973" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6868:6962" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="6908:6947" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="7082:8002" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="7126:8002" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="7184:8002" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="7970:8002" placeholder="..." />
-            <marker date="1466527696685" expanded="true" signature="8162:8265" placeholder="..." />
+            <marker date="1466533579382" expanded="true" signature="263:342" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/arbitro.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
+        <state relative-caret-position="411">
+          <caret line="155" column="20" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arbitro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="120" column="124" selection-start-line="120" selection-start-column="124" selection-end-line="120" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
+          <folding>
+            <marker date="1465404342000" expanded="true" signature="136:212" placeholder="SELECT COUNT... partita" />
+            <marker date="1465404342000" expanded="true" signature="568:649" placeholder="SELECT SUM(r... partita" />
+            <marker date="1465404342000" expanded="true" signature="1026:1193" placeholder="SELECT o.Nom... account" />
+            <marker date="1465404342000" expanded="true" signature="1550:1704" placeholder="SELECT s.nom... account" />
+            <marker date="1465404342000" expanded="true" signature="2071:2559" placeholder="SELECT c.Nom... partita" />
+            <marker date="1465404342000" expanded="true" signature="2174:2302" placeholder="SELECT COUNT... partita" />
+            <marker date="1465404342000" expanded="true" signature="3114:3541" placeholder="SELECT p.idP... partita" />
+            <marker date="1465404342000" expanded="true" signature="4265:4409" placeholder="SELECT sum(s... statistichepartita" />
+            <marker date="1465404342000" expanded="true" signature="4737:4880" placeholder="SELECT sum(s... statistichepartita" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -112,13 +112,13 @@ $fotoProfilo = $_SESSION['fotoProfilo'];
                     <div class="col-md-6 text-center" >
                         <span class="showMedia">Media Ammoniti</span><br>
                         <div class="mediaCircle" style="border: 15px solid #f2ca27">
-                            <span class=""><?php echo getMediaAmmoniti(); ?></span>
+                            <span class=""><?php if (getMediaAmmoniti() == null) echo "0.00"; else echo getAmmonitiTotali();?></span>
                         </div>
                     </div>
                     <div class="col-md-6 text-center">
                         <span class="showMedia">Media Espulsi</span><br>
                         <div class="mediaCircle" style="border: 15px solid #e74c3c">
-                            <span class=""><?php echo getMediaEspulsi(); ?></span>
+                            <span class=""><?php if (getMediaAmmoniti() == null) echo "0.00"; else echo getAmmonitiTotali(); ?></span>
                         </div>
                     </div>
                 </div>
