@@ -1,49 +1,3 @@
-<!-- <html>
-<head>
-    <title>Matching</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-<body>
-    <div class="page-header"><h1 class="text-center">Matching</h1></div>
-    <div class="formContainer">
-    <form method="POST" action="login.php" class="form-horizontal">
-      <div class="form-group">
-        <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
-        <div class="col-sm-10">
-          <input type="text" name="username" class="form-control" id="inputEmail3" placeholder="Username">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-        <div class="col-sm-10">
-          <input type="password" name="passw" class="form-control" id="passw" placeholder="Password">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Remember me
-            </label>
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default">Sign in</button>
-        </div>
-      </div>
-    </form>
-</div>
-</body>
-</html>
--->
-
 <html>
 <head>
     <title>Matching</title>
@@ -80,7 +34,21 @@
             <span>#GetYourStatistics</span><br>
             <span class="subSlogan">Matching is the first free website to calculate football referee statistics</span>
         </div>
-        <div class="description col-md-12 text-center">
+        <div class="col-md-12" style="margin-top:5%; display:block">
+            <div class="col-md-4" style="text-align:center">
+              <img src="icons/svg/login.svg" width="50%" /><br>
+              <h2><span>Locked Info</span></h2>
+            </div>
+            <div class="col-md-4" style="text-align:center">
+              <img src="icons/svg/schedule.svg" width="50%" />
+              <h2><span>Scheduled Matches</span></h2>
+            </div>
+            <div class="col-md-4" style="text-align:center">
+              <img src="icons/svg/analysis-1.svg" width="50%" />
+              <h2><span>Matches Charts</span></h2>
+            </div>
+        </div>
+        <!-- <div class="description col-md-12 text-center">
             <div class="col-md-4">
                 <i class="fa fa-user fa-8x"></i><br>
                 <span class="descriptionTitle">Account.</span><br>
@@ -96,7 +64,7 @@
                 <span class="descriptionTitle">Calendar.</span><br>
                 <span class="descriptionLong">Set all your personal information to have a best experience</span>
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="arrowBar"><div class="bounce fa fa-angle-down fa-5x"></div></div> -->
 
