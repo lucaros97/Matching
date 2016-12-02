@@ -8,15 +8,13 @@
 	session_start();
 
 	$username=$_POST["username"];
-    $passw=$_POST["passw"];
+  $passw=$_POST["passw"];
 
 	require("connessione.php");
 
 	$query="SELECT * FROM account WHERE username='$username'";
 
 	$risultato=mysqli_query($conn,$query);
-	/*echo $query;
-	echo "<BR>"; */
 
 	$_REQUEST['username']="";
 	$_REQUEST['passw']="";
@@ -40,7 +38,7 @@
 			$_SESSION['codiceMeccanografico']=$riga['codiceMeccanografico'];
 			$_SESSION['fotoProfilo']=$riga['fotoProfilo'];
 
-			header('location: arbitro.php');
+			header('location: ../arbitro.php');
 
 		} else {
 		      $_SESSION['userApp']="";
@@ -50,7 +48,7 @@
 
 			  //header('location: index.php');
 		}
-		
+
 	} else echo "ERRORE NELLA QUERY";
 ?>
 </body>

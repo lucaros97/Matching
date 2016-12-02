@@ -1,10 +1,12 @@
 <?php
+/*
 include_once "functions.php";
+require_once("./class/class.user.php");
 
 session_start();
 
-if (!isset($_SESSION['userApp'])) header('location: index.php');
 //if (!($_SESSION['tipo']=='AE')) header('location: index.php');
+
 
 $usernameUtente = $_SESSION['user'];
 $nomeUtente = $_SESSION['userApp'];
@@ -14,6 +16,26 @@ $dataNascita = $_SESSION['dataNascita'];
 //$sezioneAppartenenza = $_SESSION['sezione'];
 $codiceMeccanografico = $_SESSION['codiceMeccanografico'];
 $fotoProfilo = $_SESSION['fotoProfilo'];
+
+
+$userid = $_SESSION['user_session'];
+
+*/
+
+include_once './class/dbconfig.php';
+include_once './class/class.user.php';
+
+global $user;
+
+if(!$user->is_loggedin())
+{
+ $user->redirect('./index.php');
+}
+$user_id = $_SESSION['user_session'];
+$stmt = $DB_con->prepare("SELECT * FROM users WHERE user_id=:user_id");
+$stmt->execute(array(":user_id"=>$user_id));
+$userRow=$stmt->fetch(PDO::FETCH_ASSOC);
+
 ?>
 
 <html>

@@ -11,7 +11,7 @@ html, body {
 
 @font-face {
     font-family: Dosis;
-    src: url(/Matching/fonts/Dosis-ExtraLight.otf);
+    src: url(./fonts/Dosis-ExtraLight.otf);
 }
 
 a {
